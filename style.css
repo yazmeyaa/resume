@@ -154,10 +154,18 @@ h2 {
     font-size: 18px;
 }
 
+
+
 .about_me_block {
     background-color: white;
     padding: 2rem;
     max-width: 50%;
+}
+
+@media screen and (max-width: 800px){
+    .about_me_block{
+        max-width: 100%;
+    }
 }
 
 .conditions_list>li {
