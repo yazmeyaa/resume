@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,28 +18,28 @@
         <h2 class="subtitle profile_title">Антоненков Евгений</h2>
 
         <p class="header_subtitle_item">
-            <img class="logos" src="/resume/telegram.svg">
+            <img class="logos" src="/resume/src/assets/images/telegram.svg">
             <a class="links" href="https://t.me/hello_worldddd" target="_blank">
                 @hello_worldddd
             </a>
         </p>
 
         <p class="header_subtitle_item">
-            <img class="logos" src="/resume/phone.svg"> +7 950 682 57 16
+            <img class="logos" src="/resume/src/assets/images/phone.svg"> +7 950 682 57 16
         </p>
 
         <p class="header_subtitle_item">
-            <img class="logos" src="/resume/github.svg">
+            <img class="logos" src="/resume/src/assets/images/github.svg">
             <a class="links" href="https://github.com/yazmeyaa" target="_blank">
                 gitgub.com/yazmeyaa
             </a>
         </p>
 
         <p class="header_subtitle_item">
-            <img class="logos" src="/resume/calendar.svg"> 14.06.1998 (23 года)
+            <img class="logos" src="/resume/src/assets/images/calendar.svg"> 14.06.1998 (23 года)
         </p>
         <p class="header_subtitle_item">
-            <img class="logos" src="/resume/geoposition.svg"> Великий Новгород
+            <img class="logos" src="/resume/src/assets/images/geoposition.svg"> Великий Новгород
         </p>
 
     </header>
@@ -46,43 +47,58 @@
     <section class="about_me_block">
         <h1>Junior Frontend-разработчик</h1>
 
-        <h2 class="subtitle"> Желаемые условия: </h2>
-        <ul class="conditions_list">
-            <li>З/П: <span class="condition_item">80 000 руб.</span> </li>
-            <li>Занятость: <span class="condition_item">полная</span> </li>
-            <li>Место работы: <span class="condition_item">удалённо</span> <span class="condition_item">офис г. Великий
-                    Новгород</span> </li>
-        </ul>
-
-        <h2 class="subtutle">Профессиональные навыки:</h2>
-        <div>
-            <span class="skill_item">JavaScript</span>
-            <span class="skill_item">TypeScript</span>
-            <span class="skill_item">React</span>
-            <span class="skill_item">HTML</span>
-            <span class="skill_item">CSS</span>
-            <span class="skill_item">styled-components</span>
-            <span class="skill_item">react-router-dom</span>
-            <span class="skill_item">Redux</span>
-            <span class="skill_item">TypeScript</span>
-            <span class="skill_item">websocket</span>
-            <span class="skill_item">средний уровень Git</span>
-            <span class="skill_item">Figma</span>
+        <div class="my_conditions">
+            <h2 class="subtitle"> Желаемые условия: </h2>
+            <ul class="conditions_list">
+                <li>З/П: <span class="condition_item">80 000 руб.</span> </li>
+                <li>Занятость: <span class="condition_item">полная</span> </li>
+                <li>Место работы: <span class="condition_item">удалённо</span> <span class="condition_item">офис г.
+                        Великий
+                        Новгород</span> </li>
+            </ul>
         </div>
 
-        <h2 class="subtitle">Опыт разработки:</h2>
-        <div class="projects">
-
+        <div class="my_skills">
+            <h2 class="subtutle">Профессиональные навыки:</h2>
+            <div>
+                <span class="skill_item">JavaScript</span>
+                <span class="skill_item">TypeScript</span>
+                <span class="skill_item">React</span>
+                <span class="skill_item">HTML</span>
+                <span class="skill_item">CSS</span>
+                <span class="skill_item">styled-components</span>
+                <span class="skill_item">react-router-dom</span>
+                <span class="skill_item">Redux</span>
+                <span class="skill_item">TypeScript</span>
+                <span class="skill_item">websocket</span>
+                <span class="skill_item">средний уровень Git</span>
+                <span class="skill_item">Figma</span>
+            </div>
         </div>
 
-        <h2 class="subtitle">Немного о себе:</h2>
-        <ul>
-            <li><span>Хотелось бы работать в сильной команде, в которой можно подчерпнуть интересные идеи и
-                    развиваться. Хочется работать над проектом, который будет полезен людям, решать не самые
-                    тривиальные задачи.</span></li>
-            <li> <span>Есть мотивация расти как специалист и создавать крутые продукты.</span> </li>
-            <li> <span> В свободное время обычно практикуюсь в разработке. </span> </li>
-        </ul>
+        <div class="developement_experience">
+            <h2 class="subtitle">Опыт разработки:</h2>
+            <div class="projects">
+                <div class="signle_project">
+                    <h3 class="single_project_title">Таймер с отсчётом до Нового года</h3>
+                    <img class="single_project_screenshot" src="/resume/src/assets/images/snowFlakeScreenshot.png" alt="Скриншот приложения" >
+                    <p class="single_project_descriptio" > Моё самое первое приложение на JavaScript. В нём я довольно неплохо отточил базовые знания JS.</p> 
+                    <a class="single_project_links" href="https://github.com/yazmeyaa/snowFlake" target="_blank">Github</a>
+                    <a class="single_project_links" href="https://yazmeyaa.github.io/snowFlake/" target="_blank" >Github Pages</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="about_me">
+            <h2 class="subtitle">Немного о себе:</h2>
+            <ul>
+                <li><span>Хотелось бы работать в сильной команде, в которой можно подчерпнуть интересные идеи и
+                        развиваться. Хочется работать над проектом, который будет полезен людям, решать не самые
+                        тривиальные задачи.</span></li>
+                <li> <span>Есть мотивация расти как специалист и создавать крутые продукты.</span> </li>
+                <li> <span> В свободное время обычно практикуюсь в разработке. </span> </li>
+            </ul>
+        </div>
 
     </section>
 </body>

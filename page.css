@@ -1,0 +1,170 @@
+.header_block {
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 5px #a59f9f35;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    display: block;
+    padding: 3rem;
+}
+
+.header_block>p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    gap: 1rem;
+    line-height: 1.7;
+}
+
+.profile_photo_wrapper {}
+
+.header_profile_photo {
+    object-fit: cover;
+    object-position: 50% 50%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.subtitle {}
+
+.profile_title {
+    font-size: 20px;
+}
+
+.header_subtitle_item {
+    font-size: 14px;
+}
+
+.logos {
+    display: inline-block;
+    width: auto;
+    max-height: 1rem;
+}
+
+.links {
+    color: black;
+}
+
+.about_me_block {
+    background-color: white;
+    padding: 2rem;
+    max-width: 50%;
+    box-shadow: 0px 0px 10px 5px #a59f9f35;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .about_me_block {
+        max-width: 100%;
+    }
+}
+
+.my_conditions {}
+
+.conditions_list {}
+
+.conditions_list>li {
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    color: #4e4e4e;
+}
+
+.conditions_list>li::before {
+    content: none;
+}
+
+.condition_item {
+    user-select: none;
+    display: inline-block;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: #826fff;
+    padding: 0px 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.my_skills {}
+
+.subtutle {
+    font-size: 16px;
+}
+
+.skill_item {
+    user-select: none;
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #836fff;
+    padding: 0px 1rem;
+    border-radius: 1rem;
+    color: #836fff;
+    margin-bottom: 1rem;
+}
+
+.developement_experience {
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px solid #f5f6fa;
+    box-shadow: 0px 0px 10px 5px #a59f9f35;
+}
+
+.projects {}
+
+.signle_project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.single_project_title {
+    font-size: 16px;
+}
+
+.single_project_screenshot {
+    max-width: 100%;
+    height: auto;
+}
+
+.single_project_descriptio {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #4e4e4e;
+}
+
+.single_project_links{
+    color: black;
+    font-size: 15px;
+}
+
+.about_me {}
+
+h1,
+h2 {
+    margin-bottom: 1rem;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
