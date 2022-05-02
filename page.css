@@ -121,6 +121,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid #c4c4c4;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+.signle_project:last-child{
+    border-bottom: none;
+    margin-bottom: none;
 }
 
 .single_project_title {
